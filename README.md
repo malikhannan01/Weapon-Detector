@@ -74,7 +74,7 @@ https://drive.google.com/file/d/1wJDPS5R7bhfx5uJORJ4ZPk4JG1VbvLGG/view?usp=shari
 ```python
 from ultralytics import YOLO
 import cv2
-
+# Download the model file from Link, mentioned in  "Model Files" Section.
 # Load trained model
 model = YOLO("weapon_detector.pt")
 
@@ -91,7 +91,4 @@ results[0].show()
 # Optional: save output image
 results[0].save("output.jpg")
 
----
 
-## Conclusion
-This project demonstrates a YOLOv8-based weapon detection system trained for 50 epochs. It provides a basic foundation for security-based AI applications and can be further improved for real-world deployment.
