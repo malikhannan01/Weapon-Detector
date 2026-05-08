@@ -8,7 +8,7 @@ This project is a **weapon detection system** built using Deep Learning and Comp
 ## Dataset
 - Dataset Name: weapon-detection-test  
 - Type: Labeled images dataset for weapon detection  
-- Source: Custom / Kaggle-based dataset  
+- Source: Kaggle-based dataset  
 
 ---
 
